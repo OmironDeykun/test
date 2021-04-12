@@ -1,0 +1,43 @@
+# Logs
+logs
+*.log
+
+# node-waf configuration
+.lock-wscript
+
+# Dependency directory
+node_modules
+
+# Debug log from npm
+npm-debug.log
+
+# lol macs
+.DS_Store/
+
+# truffle
+.node-xmlhttprequest-*
+
+# local env variables
+.env
+
+# truffle build directory
+build/
+abi/
+
+# Runtime data
+pids
+*.pid
+*.seed
+allFiredEvents
+scTopics
+
+#Hardhat files
+cache
+artifacts
+
+whitelist*
+recipient*
+
+StakeTokenEmulate.sol
+RewardTokenEmulate.sol
+
